@@ -25,6 +25,7 @@ class AT581XComponent : public Component, public i2c::I2CDevice {
   }
 #endif
 
+ public:
   void setup() override;
   void dump_config() override;
   //  float get_setup_priority() const override;
